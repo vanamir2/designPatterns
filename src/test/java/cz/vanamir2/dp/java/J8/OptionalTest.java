@@ -21,5 +21,10 @@ public class OptionalTest {
         Assertions.assertEquals(optional.orElseGet(() -> Double.MAX_VALUE), Double.MAX_VALUE);
     }
 
-
+    @Test
+    void testOfNullable() {
+        Assertions.assertEquals(Optional.empty(), Optional.ofNullable(null));
+        String str = "No null";
+        Assertions.assertEquals(Optional.of(str), Optional.ofNullable(str));
+    }
 }
