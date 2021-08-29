@@ -1,4 +1,4 @@
-package cz.vanamir2.dp.java.J8;
+package cz.vanamir2.java.j8;
 
 import java.util.*;
 import java.util.stream.Collectors;
