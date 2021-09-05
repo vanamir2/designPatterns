@@ -1,4 +1,4 @@
-package cz.vanamir2.dp.solid.intsegreg;
+package cz.vanamir2.dp.solid.intsegreg.example;
 
 // This is NOT segregated (and harder to work with) Interface
 public interface Machine {

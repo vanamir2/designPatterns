@@ -1,4 +1,4 @@
-package cz.vanamir2.dp.solid.intsegreg;
+package cz.vanamir2.dp.solid.intsegreg.example;
 
 // OldFashionedPrinter does not know how to scan or fax
 // if we leave methods empty, user can be confused why it is not doing anything

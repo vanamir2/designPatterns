@@ -1,6 +1,6 @@
-package cz.vanamir2.dp.solid.intsegreg.segregation;
+package cz.vanamir2.dp.solid.intsegreg.example.segregation;
 
-import cz.vanamir2.dp.solid.intsegreg.Document;
+import cz.vanamir2.dp.solid.intsegreg.example.Document;
 
 public class MultiFunctionMachine implements MultiFunctionDevice {
 
