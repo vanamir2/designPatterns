@@ -1,4 +1,4 @@
-package cz.vanamir2.dp.solid.liskovsubs;
+package cz.vanamir2.dp.solid.liskovsubs.example;
 
 // if you want an explicit Rectangle inicialization - you use factory, not inherited class
 public class RectangleFactory {

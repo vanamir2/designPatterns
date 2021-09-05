@@ -1,7 +1,5 @@
 package cz.vanamir2.dp.solid.intsegreg.exercise.template;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 public class TimedDoor implements Door {
     private static final int TIME_OUT = 100;
     private boolean _locked;
@@ -40,6 +38,6 @@ public class TimedDoor implements Door {
 
     @Override
     public void proximityCallback() {
-        throw new NotImplementedException();
+        // NOT IMPLEMENTED
     }
 }
