@@ -1,0 +1,5 @@
+Builder
+- When piecewise object construction is complicated, provide an API for doing it succintly.
+
+Factory
+- A component responsible solely for the wholesale (not piecewise) creation of objects.

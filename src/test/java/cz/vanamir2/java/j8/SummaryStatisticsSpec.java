@@ -1,7 +1,7 @@
 package cz.vanamir2.java.j8;
 
+import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 import java.util.IntSummaryStatistics;
 import java.util.List;
