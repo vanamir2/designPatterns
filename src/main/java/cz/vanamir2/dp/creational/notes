@@ -2,4 +2,37 @@ Builder
 - When piecewise object construction is complicated, provide an API for doing it succintly.
 
 Factory
-- A component responsible solely for the wholesale (not piecewise) creation of objects.
+- A component responsible solely for the wholesale (not  piecewise) creation of objects.
+  Factory method
+    - replaces constructor using static methods to create a new object. Useful to overload constructor
+
+Abstract factory
+ - creates related objects without dependencies.
+
+ Prototype
+ - A partially or fully initialized object that you copy (clone) and make use of.
+ - When its easier to copy an existing object to fully initialize a new one.
+ - Reiterates existing design (like when building a new car, you do not start from scratch).
+ - We make a deep copy and customize it.
+
+ - Do not use Cloneable interface. There is no guarantee that it delivers Deep copy.
+ - Better way : a copy constructor - it is problematic in big heirarchy - every member have to provide copy constructor
+ - Even better way: use serialization - it is possible to use SerializationUtils.roundtrip(foo) - awesome.
+   - It is neccesary to implement Serializable on all classes in hiararchy?
+ - Reflections libraries - even better? To try out.
+
+ Singleton
+ https://refactoring.guru/design-patterns/singleton
+ - Just a single instance.
+ - Problems: serialization and reflexion can break it.
+ - Lazy initialization must be secured againts multithread access.
+ - Test problems with Singleton, Uncle Bob info: http://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html
+   - rule about encapsulation and tests
+   - Test wins againts encapsulation (testable code is more important, then encapsulated one)
+
+K zodpovězení:
+Kdy tedy (ne)používat Singleton?
+Kdy (ne)používat Dependency Injection?
+Jaký je mezi Singleton a DI rozdíl?
+
+
